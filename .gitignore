@@ -45,8 +45,8 @@ Thumbs.db
 # Conda-specific
 .conda/
 *.conda
-*.yaml
-*.yml
+
+
 
 # Conda package cache
 pkgs/
