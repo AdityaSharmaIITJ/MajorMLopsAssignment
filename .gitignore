@@ -41,3 +41,12 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Conda-specific
+.conda/
+*.conda
+*.yaml
+*.yml
+
+# Conda package cache
+pkgs/
