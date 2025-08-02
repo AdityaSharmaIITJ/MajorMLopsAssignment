@@ -4,8 +4,8 @@ import numpy as np
 def predict_samples():
     """Load model and make predictions on test samples."""
     print("Loading trained model and data...")
-    model = load_model('trained_model.joblib')
-    scaler = load_model('scaler.joblib')
+    model = load_model('src/trained_model.joblib')
+    scaler = load_model('src/scaler.joblib')
     
     # Load test data
     X_train, X_test, y_train, y_test, _ = load_data()
